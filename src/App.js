@@ -20,7 +20,7 @@ function App() {
         </div>
         <Confetti />
         <Countdown target={new Date(new Date().getFullYear() + 1, 0, 1)} />
-        <SpecialNoteModal buttonText={"Click for a Special Note!"}>
+        <SpecialNoteModal buttonText={"click kore dakh"}>
           <div style={{fontWeight: 600, fontSize: '1.1em'}}>
             <span style={{fontSize: '2em'}}>💌</span>
             <p>Dear Rupu,</p>

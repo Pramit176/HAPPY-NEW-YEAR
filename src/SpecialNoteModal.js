@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './SpecialNoteModal.css';
 
-export default function SpecialNoteModal({ buttonText = "Click for a Special Note!", children }) {
+export default function SpecialNoteModal({ buttonText = "Click kore dakh", children }) {
   const [open, setOpen] = useState(false);
   return (
     <>
